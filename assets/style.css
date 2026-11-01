@@ -150,3 +150,9 @@ footer a:hover { color: var(--text); }
 footer .klaos a { color: var(--text); text-decoration: underline; }
 .legal { margin-top: 56px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: .8rem; }
 @media (max-width: 760px) { .foot { grid-template-columns: 1fr; gap: 28px; } }
+
+/* právní texty */
+.legal-text h2 { font-size: 1.35rem; font-weight: 400; margin-top: 2.2em; }
+.legal-text p, .legal-text li { color: #3d3b38; }
+.legal-text ul.checks { margin: 0 0 1em; }
+.form-sample { border: 1px solid var(--line); padding: 24px 28px; margin-top: 16px; }
